@@ -13,7 +13,8 @@ public class ImageProcessingFunction {
 
     // Replace with your Azure endpoint and API key
     private static final String endpoint = "https://marthaazure.cognitiveservices.azure.com/";
-    private static final String subscriptionKey = "325hGF7wokNahWJyBL13qlJw6bDwNDJBmLaXWeVkVY9okkPU2SkPJQQJ99AKACYeBjFXJ3w3AAAFACOGA5Zl";
+    private static final String subscriptionKey = azure.storage.access.key=REPLACEME_WITH_ACTUAL_KEY
+
 
     // Initialize the Computer Vision client
     private static ComputerVisionClient getClient() {
@@ -51,7 +52,7 @@ public class ImageProcessingFunction {
 
     public static void main(String[] args) {
         // Example usage with the provided image URL
-        String imageUrl = "https://serverlessappstorag.blob.core.windows.net/uploads/background.jpg?sp=r&st=2024-11-22T17:38:57Z&se=2024-11-23T01:38:57Z&spr=https&sv=2022-11-02&sr=b&sig=7%2FcU3aYPXNL2YWMGV3O5ljcUAfPUof005Bk6qQoGoOA%3D";
+        String imageUrl = "url"
         analyzeImage(imageUrl);
     }
 }
